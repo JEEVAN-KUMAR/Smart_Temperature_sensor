@@ -23,6 +23,7 @@ String String_Id,String_Temp,String_Faht,String_Name="TempDevice";
 
 void setup() {
   // put your setup code here, to run once:
+  Serial.println("KernelSphere temperature Monitoring Device");
   lcd.begin(16,2); 
   Serial.begin(115200); 
   Serial2.begin(115200);
